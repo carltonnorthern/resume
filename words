@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sentence=cat README.md
+words=( $sentence )
+
+printf "%s\n" "${words[@]}" ## print array

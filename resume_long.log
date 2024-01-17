@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.25)  16 JAN 2024 21:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.25)  26 JUL 2022 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**resume_long.tex
+(./resume_long.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (./deedy-resume-openfont.cls
 Document Class: deedy-resume-openfont 2014/04/30 CV class
@@ -430,8 +430,8 @@ ght]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 
 TextBlockOrigin set to 0mm x 5mm
-) (./resume.aux)
-\openout1 = `resume.aux'.
+) (./resume_long.aux)
+\openout1 = `resume_long.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -518,9 +518,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
- (./resume.out) (./resume.out)
+ (./resume_long.out) (./resume_long.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `resume_long.out'.
 
 
 isodate: babel.sty has been loaded
@@ -632,20 +632,20 @@ LaTeX Font Warning: Font shape `TU/Raleway-Medium(0)/b/n' undefined
 
 [1
 
-] (./resume.aux)
+] [2] (./resume_long.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 67CCAA6F889D9F3767F004BF739BD4F1;385.
+Package rerunfilecheck Info: File `resume_long.out' has not changed.
+(rerunfilecheck)             Checksum: 64D53D1F46FC3CAC135AB2C5729BF669;385.
  ) 
 Here is how much of TeX's memory you used:
  16331 strings out of 477696
- 311623 string characters out of 5841668
- 676816 words of memory out of 5000000
+ 311708 string characters out of 5841668
+ 679841 words of memory out of 5000000
  36785 multiletter control sequences out of 15000+600000
  469891 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 100i,7n,136p,294b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,7n,136p,384b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (1 page).
+Output written on resume_long.pdf (2 pages).
