@@ -49,7 +49,7 @@
     \documentclass[]{deedy-resume-openfont}
 
     \begin{document}
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     Profile
@@ -65,12 +65,12 @@
 \section{Skills}
 \raggedright
 \begin{tabular}{ l l }
-	\descript{Programming Languages} & {\location{JavaScript, HTML, CSS, PHP, Java, C++, Python, shell}} \\
-	\descript{Platforms}             & {\location{Android, iOS, Linux, Gitlab, Azure DevOps, JIRA, AWS}}      \\
-	\descript{Technologies}          & {\location{Kafka, Docker, Kubernetes, RDF, TPM, ARM Trustzone, Postgres, Mongo}}     \\
+	\descript{Programming Languages} & {\location{Java, C++, Python, shell, Terraform, Puppet, JavaScript, HTML, CSS, PHP}} \\
+	\descript{Platforms}             & {\location{Android, iOS, Linux, Splunk, Gitlab, Azure DevOps, JIRA, AWS}}      \\
+	\descript{Technologies}          & {\location{Docker, Kafka, Kubernetes, TPM, ARM Trustzone, Postgres, Mongo}}     \\
 	\descript{Concepts}              & {\location{CI/CD, DevOps, IaC, Microservices, Regression Testing}}                   \\
 	\descript{Certifications}		 & {\location{SAFe Program Consultant 4/5, Scrummaster, Scrum@Scale Practitioner}} \\
-	\descript{Clearance}			 & {\location{U.S. Top Secret}} \\
+	\descript{Clearance}			 & {\location{U.S. Top Secret/SCI}} \\
 \end{tabular}
 \sectionsep
 
@@ -80,35 +80,43 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Work Experience}
+\runsubsection{Qualcomm}\descript{| Staff DevOps Engineer}\hfill \location{San Diego, CA | Oct 2022 – Current}
+\begin{tightemize}
+	\item Reduced virtual machine provisioning time by 90\% via a self-service Terraform Enterprise capability using Nutanix infrastructure.
+	\item Improved developer workflow and CI/CD of multiple engineering teams through embedded discovery and enablement of the platform (Jenkins, Docker, Artifactory, Splunk).
+	\item Enforced configuration management, role-based access control, and certificate management with Puppet.
+\end{tightemize}
+\sectionsep
 \runsubsection{MITRE}\descript{| Principal Software Delivery Engineer}\hfill \location{San Diego, CA | Apr 2018 – June 2022}
 \begin{tightemize}
-	\item Led the US Space Force Kobayashi Maru Blue Team (cross-FFRDC) to improve delivery of a large space domain awareness system in response to congressional inquiries (Java, K8s, PostGres).   
-	\item Reduced development teams lead time to deliver value and improved external collaboration with external partners of MITRE's Aviation Center by building a Kuberenetes-based, internal development platform in AWS Govcloud (Java, EKS, Concourse, SonarQube, Nexus).  
+	\item Led the US Space Force Kobayashi Maru Blue Team (cross-FFRDC) to improve delivery of a large space domain awareness system in response to congressional inquiries (Java, K8s, PostGres).
+	\item Reduced development teams lead time to deliver value and improved external collaboration with external partners of MITRE's Aviation Center by building a Kuberenetes-based, internal development platform in AWS Govcloud (Java, EKS, Concourse, SonarQube, Nexus).
     \item Increased deployment frequency (by 5x) of a Navy undersea communications system via software modernization effort that included adopting concepts such as CI/CD, containerization, automated testing, and shifting left on security (Azure DevOps, Docker).
 	\item Developed a novel security/privacy architecture and prototype for Dept. of Homeland Security (DHS) to automatically remove permissions from 'risky' mobile applications of enterprise user devices (Python, Firebase, Android).
 \end{tightemize}
 \sectionsep
-\runsubsection{MITRE}\descript{| Group Leader / Engineering Manager}\hfill \location{San Diego, CA | August 2015 – June 2022}
+\runsubsection{MITRE}\descript{| Software Engineering Manager}\hfill \location{San Diego, CA | August 2015 – June 2022}
 \begin{tightemize}
-	\item Built, nurtured and led a healthy team of 6 - 12 Software Engineers through guidance, mentorship and support.
+	\item Mentored and coached team members, facilitating skill development, project placement, and career growth.
+	\item Conducted performance reviews and made pay/promotion recommendations.
 \end{tightemize}
 \sectionsep
 \runsubsection{MITRE}\descript{| Lead Software Engineer}\hfill \location{Hampton, VA | March 2014 – April 2018}
 \begin{tightemize}
 	\item Led a multi-team research effort to build a multi-domain command and control architecture via rapid prototyping and experimentation. Has since been transitioned to operational use by the Air Force (Java, Kafka, Microservices, Mongo, Gitlab).
-	\item Provided consulting services to the US Army resulting in the creation of a mobile app development capability and app store for training and education purposes.  https://rdl.train.army.mil/catalog/tag/home
+	\item Provided consulting services to the US Army resulting in the creation of a mobile app development capability and app store for training and education.  https://rdl.train.army.mil/catalog/tag/home
 \end{tightemize}
 \sectionsep
 \runsubsection{MITRE}\descript{| Senior Software Engineer}\hfill \location{Hampton, VA | June 2008 – March 2014}
 \begin{tightemize}
-	\item Created and implemented an enterprise mobile security strategy for the White House Comminications Agency that resulted in first agency-wide smartphone deployment.
+	\item Created and implemented an enterprise mobile security strategy for the White House Communications Agency that resulted in first agency-wide smartphone deployment.
 	\item Operationalized capability with the Special Operations Forces to share unit location information via SMS (no cellular data network) through a custom developed Android app.
 	\item Proved the concept of controlling an Army munitions system via smartphone by developing a Windows (Java) and Android app prototype.
 \end{tightemize}
 \sectionsep
 \runsubsection{GDIT}\descript{| Software Engineer}\hfill \location{Suffolk, VA | May 2005 – July 2008}
 \begin{tightemize}
-	\item Improved the US Joint Forces Command's ability to conduct modelling and simulation exercises by developing a unit order of battle data correlation tool (Java) improving upon a previously manual process using spreadsheets.
+	\item Improved the US Joint Forces Command's ability to conduct modelling and simulation exercises by developing a unit order of battle data correlation tool (Java) to automate the creation of simulation initialization data.
 \end{tightemize}
 \sectionsep
 
@@ -129,7 +137,7 @@
 \runsubsection{ODU Web Science Research Group}\descript{| Research Assistant}\hfill \location{Norfolk, VA | May 2009 – May 2011}
 \begin{tightemize}
 	\item Developed the Firefox Add-On ArchiveFacebook (JavaScript) that provides Facebook users the ability to save and access their data offline (100k+ users).
-	\item Created the open source project \href{https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup}{nickname-and-diminutive-names-lookup} as a simple way to find variations of first names.
+	\item Created the \href{https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup}{nicknames PyPI package} as a simple way to find variations of first names.
 \end{tightemize}
 \sectionsep
 
@@ -153,5 +161,5 @@
 \end{tightemize}
 \sectionsep
 
-\ 
+\
 \end{document}
